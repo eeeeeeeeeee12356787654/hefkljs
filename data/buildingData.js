@@ -86,13 +86,13 @@ Game.buildingData = (function () {
         resource: 'energy',
         resourcePerSecond: {
             'energy': 273,
-            'hydrogen': -10,
-            'helium': -10
+            'hydrogen': -1,
+            'helium': -1
         },
         cost: {
-            'lunarite': 30000,
-            'titanium': 20000,
-            'silicon': 15000
+            'lunarite': 30,
+            'titanium': 20,
+            'silicon': 15
         }
     });
 
@@ -102,7 +102,7 @@ Game.buildingData = (function () {
         desc: 'The Super-Heater throws electricity at Hydrogen to turn it into a plasmatic substance.',
         resource: 'plasma',
         resourcePerSecond: {
-            'energy': -1000,
+            'energy': -1,
             'hydrogen': -10,
             'plasma': 1
         },
@@ -152,7 +152,7 @@ Game.buildingData = (function () {
         desc: 'Pulverizes Uranium for easy transportation out of deep mineshafts.',
         resource: 'uranium',
         resourcePerSecond: {
-            'uranium': 1
+            'uranium': 100
         },
         cost: {
             'lunarite': 4000,
@@ -275,7 +275,7 @@ Game.buildingData = (function () {
         desc: 'Build a small pump to extract Oil from the ground.',
         resource: 'oil',
         resourcePerSecond: {
-            'oil': 1
+            'oil': 100
         },
         cost: {
             'metal': 60,
@@ -335,7 +335,7 @@ Game.buildingData = (function () {
         resource: 'metal',
         unlocked: true,
         resourcePerSecond: {
-            'metal': 1
+            'metal': 100
         },
         cost: {
             'metal': 10,
@@ -395,7 +395,7 @@ Game.buildingData = (function () {
         resource: 'gem',
         unlocked: true,
         resourcePerSecond: {
-            'gem': 1
+            'gem': 100
         },
         cost: {
             'metal': 15,
@@ -454,8 +454,8 @@ Game.buildingData = (function () {
         desc: 'Build a shovel for your woodburner.',
         resource: 'charcoal',
         resourcePerSecond: {
-            'wood': -2,
-            'charcoal': 1
+            'wood': -1,
+            'charcoal': 100
         },
         cost: {
             'metal': 10,
@@ -518,7 +518,7 @@ Game.buildingData = (function () {
         resource: 'wood',
         unlocked: true,
         resourcePerSecond: {
-            'wood': 1
+            'wood': 100
         },
         cost: {
             'metal': 10,
@@ -577,7 +577,7 @@ Game.buildingData = (function () {
         desc: 'This type of blowtorch instantly turns sand into Silicon, but only on a small scale. To make it, extraterrestrial resources are required.',
         resource: 'silicon',
         resourcePerSecond: {
-            'silicon': 1
+            'silicon': 100
         },
         cost: {
             'lunarite': 150,
@@ -640,7 +640,7 @@ Game.buildingData = (function () {
         desc: 'Bribe local workers to mine your Lunarite.',
         resource: 'lunarite',
         resourcePerSecond: {
-            'lunarite': 1
+            'lunarite': 100
         },
         cost: {
             'gem': 500
@@ -698,7 +698,7 @@ Game.buildingData = (function () {
         desc: 'Sucks in methane and cleans the planet at the same time!',
         resource: 'methane',
         resourcePerSecond: {
-            'methane': 1
+            'methane': 100
         },
         cost: {
             'lunarite': 50
@@ -756,7 +756,7 @@ Game.buildingData = (function () {
         desc: 'Hire explorers to search for Titanium on the surface, uncovered by winds on Mars.',
         resource: 'titanium',
         resourcePerSecond: {
-            'titanium': 1
+            'titanium': 100
         },
         cost: {
             'gem': 1000
@@ -814,7 +814,7 @@ Game.buildingData = (function () {
         desc: 'Powered by Methane, this droid scouts the asteroids for gold deposits.',
         resource: 'gold',
         resourcePerSecond: {
-            'gold': 1
+            'gold': 100
         },
         cost: {
             'gem': 200,
@@ -873,7 +873,7 @@ Game.buildingData = (function () {
         desc: 'The Scout Ship searches through the asteroid field for pieces of silver embedded in asteroids.',
         resource: 'silver',
         resourcePerSecond: {
-            'silver': 1
+            'silver': 100
         },
         cost: {
             'lunarite': 100,
@@ -936,7 +936,7 @@ Game.buildingData = (function () {
         desc: 'This collector travels around Jupiter seeking Hydrogen to store to bring back to Earth.',
         resource: 'hydrogen',
         resourcePerSecond: {
-            'hydrogen': 1
+            'hydrogen': 100
         },
         cost: {
             'lunarite': 6000,
@@ -994,7 +994,7 @@ Game.buildingData = (function () {
         name: 'Helium Drone',
         desc: 'The Helium Drone scouts out the area on Saturn and picks out spots high in Helium which are then mined slowly by it.',        resource: 'helium',
         resourcePerSecond: {
-            'helium': 1
+            'helium': 100
         },
         cost: {
             'lunarite': 8400,
@@ -1053,7 +1053,7 @@ Game.buildingData = (function () {
         desc: 'The Ice Pickaxe is the simplest way of mining frozen water, and although it is the cheapest, it is the slowest.',
         resource: 'ice',
         resourcePerSecond: {
-            'ice': 1
+            'ice': 10000
         },
         cost: {
             'lunarite': 17800,
@@ -1113,7 +1113,7 @@ Game.buildingData = (function () {
         resource: 'meteorite',
         resourcePerSecond: {
             'plasma': -3,
-            'meteorite': 1
+            'meteorite': 1000000
         },
         cost: {
             'lunarite': 100000,
@@ -1142,7 +1142,7 @@ Game.buildingData = (function () {
         desc: 'Build a small laboratory of your very own to start producing science. Each one produces 0.1 science per second.',
         resource: 'science',
         resourcePerSecond: {
-            'science': 0.1
+            'science': 10
         },
         cost: {
             'metal': 20,
@@ -1185,7 +1185,7 @@ Game.buildingData = (function () {
         desc: 'Chemical plants are used to make rocket fuel automatically.',
         resource: 'rocketFuel',
         resourcePerSecond: {
-            'rocketFuel': 0.2
+            'rocketFuel': 1000000
         },
         cost: {
             'metal': 1000,
