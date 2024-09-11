@@ -152,12 +152,12 @@ Game.buildingData = (function () {
         desc: 'Pulverizes Uranium for easy transportation out of deep mineshafts.',
         resource: 'uranium',
         resourcePerSecond: {
-            'uranium': 100
+            'uranium': 10000000
         },
         cost: {
-            'lunarite': 4000,
-            'titanium': 2000,
-            'gold': 2000
+            'lunarite': 4,
+            'titanium': 2,
+            'gold': 2
         }
     });
 
