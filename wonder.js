@@ -1,4 +1,4 @@
-// Wonders Tab
+1// Wonders Tab
 function updateWonderCost(){
     preciousGemCost = 1 * floor1Price;
     preciousSilverCost = 1 * floor1Price;
